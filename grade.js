@@ -1,22 +1,18 @@
-var a = (90 <= 100);
-var b = (80 <= 89);
-var c = (70 <= 79);
-var d = (60 <= 69);
-var f = (0 <= 59);
+var grade = 78
 
-switch () {
-	case a:
-		console.log("A");
+switch (true) {
+	case (grade >= 0 && grade <= 59):
+		console.log("F");
 		break;
-	case b:
-		console.log("B");
-		break;
-	case c:
-		console.log("C");
-		break;
-	case d:
+	case (grade >= 60 && grade <= 69):
 		console.log("D");
 		break;
-	case f:
-		console.log("F");
-}
+	case (grade >= 70 && grade <= 79):
+		console.log("C");
+		break;
+	case (grade >= 80 && grade <= 89):
+		console.log("B");
+		break;
+	case (grade >= 90 && grade <= 100):
+		console.log("A");
+	}

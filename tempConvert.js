@@ -1,8 +1,5 @@
-function convert(f) {
-	f = (f - 32)/(1.8);
-	console.log(f);
-	var c = f;
-	console.log("" + f + "°F" + " is " + c + "°C");
-}
-
-convert(80)
+var temp = 100;
+var c = (temp -  32)  *  (5 / 9);
+console.log(c + "°C");
+var f = c *  9 / 5 + 32;
+console.log(c + "°C is " + f + "°F");
