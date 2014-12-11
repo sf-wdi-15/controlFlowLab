@@ -1,5 +1,5 @@
 function converter(x) {
-	x = (x - 32) * 5/9;
+	x = (x - 32) * 5 / 9;
 	console.log(x);
 }
 

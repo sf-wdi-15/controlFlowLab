@@ -1,0 +1,19 @@
+var finalCountDown = function (num) {
+	if (num > 0) {
+	finalCountDown(num - 1);
+	} else {
+		console.log("Finished!")
+	}
+}
+
+var spiralDown = function (num) {
+	if (num > 1) {
+	console.log("Spiraling down")
+	spiralDown(num -1);
+	console.log("Spiraling up");
+ 	} else {
+ 	console.log("Finshed!")
+ 	}
+}
+
+spiralDown( )
